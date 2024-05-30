@@ -10,7 +10,7 @@ api_hash = os.getenv('API_HASH')
 phone = os.getenv('PHONE')
 
 # Создаем клиент Telethon и запускаем его
-client = TelegramClient('user_session', api_id, api_hash)
+client = TelegramClient('client', api_id, api_hash)
 
 async def main():
     await client.start(phone)
