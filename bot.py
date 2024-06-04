@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 # Параметры Telethon
 api_id = os.getenv('API_ID')
 api_hash = os.getenv('API_HASH')
-source_channels = [os.getenv(f'SOURCE_CHANNEL_{i}') for i in range(1, 11)]
+source_channels = [os.getenv(f'SOURCE_CHANNEL_{i}') for i in range(1, 10)]
 
 # Параметры Telegram Bot
 bot_token = os.getenv('BOT_TOKEN')
